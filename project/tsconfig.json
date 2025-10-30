@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": false,  // Отключает проверку неиспользуемых локальных переменных
+    "noUnusedParameters": false,  // Отключает проверку неиспользуемых параметров функции
+    "strict": true  // Если у вас включен режим "strict", можно оставить его, но установить вышеупомянутые флаги
+  }
+}
